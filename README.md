@@ -1,4 +1,12 @@
+<p align="center"><img src="assets/spacey-banner.svg" alt="SpaceY — Beyond Earth. Beyond Limits." width="100%"></p>
+
 # SpaceY
+
+[![Orbit Lab tests](https://github.com/AnthonyRex/SpaceY/actions/workflows/tests.yml/badge.svg)](https://github.com/AnthonyRex/SpaceY/actions/workflows/tests.yml)
+
+**Stage:** Foundation and research · **Token symbol:** SPACEY
+
+[Research](research/README.md) · [Roadmap](docs/ROADMAP.md) · [Company proposal](docs/COMPANY.md) · [Token information](docs/TOKEN.md) · [Governance](docs/GOVERNANCE.md)
 
 ### Beyond Earth. Beyond Limits.
 
@@ -95,6 +103,17 @@ SpaceY is committed to:
 - Responsible community governance.
 - Evidence-based technological development.
 - Long-term innovation.
+
+## First Research Prototype — Orbit Lab
+
+A dependency-free Python model estimates ideal circular Earth orbit velocity and period using NASA/JPL gravitational parameters. It is educational software, not flight-qualified navigation.
+
+```bash
+python3 research/orbit.py --altitude-km 400
+python3 -m unittest discover -s tests -v
+```
+
+Four local automated tests passed on 27 November 2026. See the [research documentation](research/README.md) for assumptions and references, and [GitHub Actions](https://github.com/AnthonyRex/SpaceY/actions) for remote test results.
 
 ## Join SpaceY
 
