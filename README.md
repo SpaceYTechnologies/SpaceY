@@ -2,7 +2,7 @@
 
 # SpaceY
 
-[![Orbit Lab tests](https://github.com/AnthonyRex/SpaceY/actions/workflows/tests.yml/badge.svg)](https://github.com/AnthonyRex/SpaceY/actions/workflows/tests.yml)
+[Orbit Lab automated test workflow](.github/workflows/tests.yml)
 
 **Stage:** Foundation and research · **Token symbol:** SPACEY
 
@@ -113,7 +113,7 @@ python3 research/orbit.py --altitude-km 400
 python3 -m unittest discover -s tests -v
 ```
 
-Four local automated tests passed on 27 November 2026. See the [research documentation](research/README.md) for assumptions and references, and [GitHub Actions](https://github.com/AnthonyRex/SpaceY/actions) for remote test results.
+Four local automated tests passed on 27 November 2026. See the [research documentation](research/README.md) for assumptions and references, and the repository's Actions tab for remote test results.
 
 ## Join SpaceY
 
